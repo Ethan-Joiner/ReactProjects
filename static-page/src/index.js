@@ -4,20 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// ReactDOM.render(
-//   <ul>List 
-//     <li>List item 1</li>
-//     <li>List item 2</li>
+const navBar = (
+  <nav>
+    <h1>Here is a navbar</h1>
+    <ul>
+      <li>Pricing</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+)
 
-//   </ul>
+ReactDOM.render(
+  navBar
   
   
-//   ,document.getElementById('root')
-// );
+  ,document.getElementById('root')
+);
 
 // OLD WAY OF USING VANILLA JS TO ADD HTML VIA JS
 // const h1 = document.createElement("h1");
-// h1.textContent = "This is a long way of manually inserting text via JS";
+// h1.textContent = "This is an imperative way to program";
 // h1.className = 'h1test';
 // document.querySelector('#root').append(h1);
 
